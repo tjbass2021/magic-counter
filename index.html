@@ -16,13 +16,36 @@
         <div class="contador">
             <button name="adicionar" onclick="increment()">+1</button>
             <button name="adicionar5" onclick="incrementPlus()">+5</button>
-            <div id="tela"><span>40</span></div>
+            <div id="tela"><span>20</span></div>
             <button name="subtrair5" onclick="decrementPlus()">-5</button>
             <button name="subtrair" onclick="decrement()">-1</button>
         </div>
 
     </div>
+
+    <div class="mana">
+        <button id="azul" name='azul' onclick="addMana()">0</button>
+        <button id="subAzul" onclick="subMana()">-</button>
+
+        <button id="verde" onclick="addManaVerde()">0</button>
+        <button id="subVerde" onclick="subManaVerde()">-</button>
+
+        <button id="vermelho" onclick="addManaVermelha()">0</button>
+        <button id="subVermelho" onclick="subManaVermelha()">-</button>
+
+        <button id="branco" onclick="addManaBranca()">0</button>
+        <button id="subBranco" onclick="subManaBranca()">-</button>
+
+        <button id="preto" onclick="addManaPreta()">0</button>
+        <button id="subPreto" onclick="subManaPreta()">-</button>
+
+        <button id="incolor" onclick="addManaIncolor()">0</button>
+        <button id="subIncolor" onclick="subManaIncolor()">-</button>
+
+        <button id="reset" onclick="reset()"><img src="icons/reload.svg" alt=""></button>
+    </div>
     
     <script src="js/contador.js"></script>
+    <script src="js/contador -mana.js"></script>
 </body>
 </html>

@@ -1,6 +1,8 @@
-let contador = 40;
+let contador = 20;
 
 const CURRENT_NUMBER = document.getElementById('tela');
+
+
 
 
 // A repetição de 'if' com a condição de ser igual ou menor que zero para a exibição
@@ -48,7 +50,6 @@ function decrement(){
 }
 
 function reload() {
-    contador = 40;
+    contador = 20;
     CURRENT_NUMBER.innerHTML = contador;
 }
-
