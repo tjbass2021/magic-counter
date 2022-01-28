@@ -10,6 +10,11 @@ function incrementPlus(){
 function decrementPlus() {
     contador = contador - 5;
     CURRENT_NUMBER.innerHTML = contador;
+
+    if(contador<= 0){
+        contador = 'You Lose!'
+        CURRENT_NUMBER.innerHTML = contador;
+    }
 }
 
 function increment(){
@@ -20,9 +25,15 @@ function increment(){
 function decrement(){
     contador--;
     CURRENT_NUMBER.innerHTML = contador;
+
+    if(contador <= 0){
+        contador = 'You Lose!'
+        CURRENT_NUMBER.innerHTML = contador;
+    }
 }
 
 function reload() {
     contador = 40;
     CURRENT_NUMBER.innerHTML = contador;
 }
+

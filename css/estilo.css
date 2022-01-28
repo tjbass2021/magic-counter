@@ -32,14 +32,15 @@ body{
 }
 
 #tela{
-    width: 200px;
+    width: 400px;
     height: 200px;
     /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 100px;
+    font-size: 90px;
+    text-align: center;
 
 }
 
